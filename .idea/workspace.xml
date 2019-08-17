@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccad1ca4-d72b-4cb0-b18f-20995f87c553" name="Default Changelist" comment="" />
+    <list default="true" id="ccad1ca4-d72b-4cb0-b18f-20995f87c553" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/ConvertorIpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/ConvertorIpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/view/ConsoleWorkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/view/ConsoleWorkTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +30,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/model/ConvertorIpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="-79">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/projectStart/StartProgram.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -66,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/ConsoleWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-640">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="-918">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,11 +81,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/view/ConsoleWorkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +116,8 @@
         <option value="$PROJECT_DIR$/src/main/java/model/ConvertorIp.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/ConsoleWork.java" />
         <option value="$PROJECT_DIR$/src/main/java/projectStart/StartProgram.java" />
-        <option value="$PROJECT_DIR$/src/test/java/model/ConvertorIpTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/view/ConsoleWorkTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/model/ConvertorIpTest.java" />
       </list>
     </option>
   </component>
@@ -253,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConsoleWorkTest">
+  <component name="RunManager" selected="Application.StartProgram">
     <configuration name="StartProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="projectStart.StartProgram" />
       <module name="OTRtaskIpAdress" />
@@ -299,9 +308,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartProgram" />
         <item itemvalue="JUnit.ConsoleWorkTest" />
         <item itemvalue="JUnit.ConvertorIpTest" />
-        <item itemvalue="Application.StartProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -315,12 +324,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566039980041</updated>
-      <workItem from="1566039984159" duration="2576000" />
+      <workItem from="1566039984159" duration="3457000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ConvertorIpTest - 2019.08.17 at 14h 50m 32s.xml">
+      <configuration name="ConvertorIpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsoleWorkTest - 2019.08.17 at 14h 50m 39s.xml">
+      <configuration name="ConsoleWorkTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2576000" />
+    <option name="totallyTimeSpent" value="3457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="255" y="76" width="1612" height="876" extended-state="0" />
@@ -331,7 +348,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -342,7 +359,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,16 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/projectStart/StartProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ConvertorIp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -401,17 +408,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/model/ConvertorIpTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/ConsoleWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="-918">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/ConsoleWork.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/ConvertorIpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="-79">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -420,8 +430,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/view/ConsoleWorkTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/projectStart/StartProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
