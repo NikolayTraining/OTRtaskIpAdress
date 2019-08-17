@@ -52,6 +52,26 @@ public class ConsoleWork implements ConsoleWorkImpl {
 
     @Override
     public void printRangeIp() {
+        if (!oneIp.equals(null) && !twoIp.equals(null)) {
+            oneIpValue = convertorIp.ipToLong(oneIp);
+            twoIpValue = convertorIp.ipToLong(twoIp);
+            if (oneIpValue - twoIpValue > 0) {
+                System.out.println("oneIpValue - twoIpValue = " + (oneIpValue - twoIpValue));
+                System.out.println("IP: " + twoIp + " ~ " + oneIp);
+                for (int ii = 0; ii < (oneIpValue - twoIpValue) - 1; ii++) {
+                    System.out.println(convertorIp.longToIp(twoIpValue + ii + 1));
+                }
+            } else {
+                System.out.println(" Amount = " + (twoIpValue - oneIpValue));
+                System.out.println("IP: " + oneIp + " ~ " + twoIp);
+                for (int ii = 0; ii < (twoIpValue - oneIpValue) - 1; ii++) {
+                    System.out.println(convertorIp.longToIp(oneIpValue + ii + 1));
+                }
+            }
+            if (Math.abs(twoIpValue - oneIpValue) < 2) {
+                System.out.println("No valid addresses!!!");
+            }
+        }
 
     }
 
