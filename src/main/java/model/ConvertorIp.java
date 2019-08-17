@@ -1,7 +1,8 @@
 package model;
 
-public class ConvertorIp {
+public class ConvertorIp implements ConvertorIpImpl{
 
+    @Override
     public long ipToLong(String ip) {
         String[] ipSplit = ip.split("\\.");
         long longIp = 0;
@@ -11,6 +12,7 @@ public class ConvertorIp {
         return longIp;
     }
 
+    @Override
     public String longToIp(long longIp) {
         return ((longIp >> 24) & 0xFF) + "." +
 

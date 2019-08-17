@@ -1,20 +1,22 @@
 package view;
 
 import model.ConvertorIp;
+import model.ConvertorIpImpl;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ConsoleWork {
+public class ConsoleWork implements ConsoleWorkImpl {
     private String messageConsole = null;
     private String oneIp = null;
     private String twoIp = null;
     private String messageExit = "exit";
     private long oneIpValue = 0;
     private long twoIpValue = 0;
+    private ConvertorIpImpl convertorIp = new ConvertorIp();
 
-
+        @Override
     public boolean enterIpForConsole() {
         messageConsole = null;
         try (Scanner scanner = new Scanner(System.in)) {
@@ -46,6 +48,11 @@ public class ConsoleWork {
             System.out.println(ex.getMessage());
         }
         return false;
+    }
+
+    @Override
+    public void printRangeIp() {
+
     }
 
     public boolean checkForIp(String s) {
